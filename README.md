@@ -84,6 +84,8 @@ MazeStrike/
     ├── default_env.tres
     └── project.godot      # Godot project configuration
 
+---
+
 
 ## ▶️ How to Run the Game
 
@@ -93,6 +95,8 @@ MazeStrike/
 3. Click Import Project
 4. Select project.godot from the brandnewmazestrike folder
 5. Press ▶ Run to start the game
+
+---
 
 
 ## 🎮 Controls
