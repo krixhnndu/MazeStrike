@@ -100,45 +100,18 @@ MazeStrike/
 
 
 ## 🎮 Controls
-
 1. Arrow Keys / WASD – Player movement
 2. Esc – Exit game
 
-▶️ How to Run the Game
 
-Clone the repository:
+## 🎯 Learning Outcomes
+1. Understanding AI path-finding in games
+2. Applying graph traversal concepts in real-time systems
+3. Implementing decision-making logic using GDScript
+4. Hands-on experience with Godot Engine
 
-git clone https://github.com/krixhnndu/MazeStrike.git
-
-
-Open Godot Engine
-
-Click Import Project
-
-Select project.godot from the brandnewmazestrike folder
-
-Press ▶ Run to start the game
-
-🎮 Controls
-
-Arrow Keys / WASD – Player movement
-
-Esc – Exit game
-
-🎯 Learning Outcomes
-
-Understanding AI path-finding in games
-
-Applying graph traversal concepts in real-time systems
-
-Implementing decision-making logic using GDScript
-
-Hands-on experience with Godot Engine
-
-👤 Author
-
+## 👤 Author
 Krishnendu S Binu
 
-📄 License
-
+## 📄 License
 This project is developed for educational and demonstration purposes.
