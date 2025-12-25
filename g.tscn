@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://cnf1rh7xvwye6"]
+
+[ext_resource type="Texture2D" uid="uid://cqqtslgocmo4j" path="res://2t0o_u10j_170817.jpg" id="1_l008b"]
+[ext_resource type="Script" uid="uid://dbmeei8n5ltvv" path="res://g.gd" id="1_vqffh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cegan"]
+size = Vector2(3374.07, 5758.02)
+
+[node name="g" type="StaticBody2D" groups=["gate"]]
+scale = Vector2(0.0580901, 0.0340395)
+script = ExtResource("1_vqffh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(68.8586, 88.1329)
+texture = ExtResource("1_l008b")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(86.0742, 117.511)
+shape = SubResource("RectangleShape2D_cegan")
