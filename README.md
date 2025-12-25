@@ -95,7 +95,7 @@ MazeStrike/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/krixhnndu/MazeStrike.git
+   https://github.com/krixhnndu/MazeStrike
    ```
 2. Open **Godot Engine**
 3. Click **Import Project**
