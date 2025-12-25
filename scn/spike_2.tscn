@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://coow84cr1ssm1"]
+
+[ext_resource type="Texture2D" uid="uid://cxkpwpho7plo8" path="res://spikes.png" id="1_6f53j"]
+[ext_resource type="Script" uid="uid://bwd8ld6247tg2" path="res://scn/spike_2.gd" id="2_14tpx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_14tpx"]
+size = Vector2(61.825, 22.2727)
+
+[node name="Spike2" type="StaticBody2D"]
+rotation = -0.0200502
+scale = Vector2(1.98941, 1.21872)
+script = ExtResource("2_14tpx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.457855, 21.8011)
+shape = SubResource("RectangleShape2D_14tpx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 9.86087)
+scale = Vector2(1, 0.691848)
+texture = ExtResource("1_6f53j")

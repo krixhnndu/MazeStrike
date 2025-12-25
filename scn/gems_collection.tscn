@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://bahgdruykpq6b"]
+
+[ext_resource type="Texture2D" uid="uid://durp78m76f4je" path="res://gem_yellow.png" id="1_l210h"]
+[ext_resource type="Script" uid="uid://duillngq1pcu8" path="res://scn/gems_collection.gd" id="1_wafie"]
+[ext_resource type="Texture2D" uid="uid://vp5ms832ui8b" path="res://gem_blue.png" id="2_wafie"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8da2d"]
+size = Vector2(178, 216)
+
+[node name="gems_collection" type="Area2D"]
+script = ExtResource("1_wafie")
+
+[node name="GemYellow2" type="Sprite2D" parent="."]
+light_mask = 3
+visibility_layer = 3
+position = Vector2(23, 76)
+scale = Vector2(1.59375, 1.64063)
+texture = ExtResource("1_l210h")
+
+[node name="GemBlue2" type="Sprite2D" parent="."]
+position = Vector2(53, 119)
+scale = Vector2(2.125, 1.48438)
+texture = ExtResource("2_wafie")
+
+[node name="GemYellow" type="Sprite2D" parent="."]
+position = Vector2(62.0001, 20)
+scale = Vector2(1.875, 1.34375)
+texture = ExtResource("1_l210h")
+
+[node name="GemBlue" type="Sprite2D" parent="."]
+position = Vector2(8.00012, -33)
+scale = Vector2(1.82813, 1.73438)
+texture = ExtResource("2_wafie")
+
+[node name="GemBlue3" type="Sprite2D" parent="."]
+position = Vector2(-32.0005, 44.9999)
+scale = Vector2(1.54688, 1.6875)
+texture = ExtResource("2_wafie")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(22, 35)
+shape = SubResource("RectangleShape2D_8da2d")
