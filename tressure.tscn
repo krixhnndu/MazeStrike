@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgb2t7srh4yqp"]
+
+[ext_resource type="Script" uid="uid://fe51heq8fffj" path="res://tressure.gd" id="1_w43wq"]
+[ext_resource type="Texture2D" uid="uid://bupe0tsrv1cea" path="res://treasure chest0004.png" id="2_hp0hu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cegan"]
+size = Vector2(30.0534, 25.4418)
+
+[node name="tressure" type="Area2D"]
+scale = Vector2(7.35357, 8.48995)
+script = ExtResource("1_w43wq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_hp0hu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.068002, 2.00236)
+shape = SubResource("RectangleShape2D_cegan")
