@@ -120,6 +120,19 @@ MazeStrike/
 
 ---
 
+## 🤝 Contributions
+
+| Name                  | Role / Contribution                                |
+| --------------------- | -------------------------------------------------- |
+| A B Devika            | Maze Implementation  |
+| Aiswarya M            | Maze Level Design, Game Asset Creation, UI/UX Improvements |
+| Arpitha Mariya Joseph | Maze Level Layout, Game Asset Creation, Character Design  |
+| Bhavya SCMS           | Maze Implementation, UI/UX Improvements, Performance Optimization|
+| Krishnendu S Binu     | AI Pathfinding Algorithm, Game Logic, Testing, Bug Fixes |
+| Nandana G L           | AI Pathfinding Algorithm, Testing, Bug Fixes, Performance Optimization|
+
+
+
 ## 👤 Author
 
 Krishnendu S Binu
